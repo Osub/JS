@@ -15,6 +15,7 @@ const paths = {
     webpackFile: 'webpack.config.babel.js',
     libDir: 'lib',
     distDir: 'dist',
+    clientBundle: 'dist/client-bundle.js?(.map)'
 };
 // gulp.task('lint', () =>
 //     gulp.src([
